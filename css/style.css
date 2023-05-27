@@ -1,89 +1,69 @@
-
 body {
-    margin:0;
-    
+  font-family: Arial;
 }
 
-.icon-bar {
+input[type=number], select {
   width: 100%;
-  background-color: #555;
-  overflow: auto;
-}
-
-.icon-bar a {
-  float: left;
-  width: 16%;
-  text-align: center;
-  padding: 12px 0;
-  transition: all 0.3s ease;
-  color: white;
-  font-size: 36px;
-}
-
-.icon-bar a:hover {
-  background-color: #b9c1b9;
-}
-
-.active {
-  background-color: #04AA6D;
-}
-.fakeimg {
-    height: 50px;
-    background: #aaa;
-  }
-
-  
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #c7c0c0;
-}
-* {box-sizing: border-box;}
-
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
 }
 
 input[type=submit] {
-  background-color: #e60527;
+  width: 100%;
+  background-color: #04AA6D;
   color: white;
-  padding: 12px 20px;
+  padding: 14px 20px;
+  margin: 8px 0;
   border: none;
   border-radius: 4px;
   cursor: pointer;
 }
 
 input[type=submit]:hover {
-  background-color: #e26464;
+  background-color: #45a049;
 }
 
-.container {
+div.container {
   border-radius: 5px;
   background-color: #f2f2f2;
-  /* padding-top: 50px;
-  padding-right: 200px;
-  padding-left: 200px;
-  padding-bottom: 200px; */
+  padding: 20px;
+  color:rgb(0, 0, 0);
+  position: relative;
+  font-weight: bold;
+  
 }
 
-  /* ----- */
- 
-  
-  /* .centered {
-    position: absolute;
-    top: 10%;
-    left: 45%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  
-  .centered img {
-    width: 150px;
-    border-radius: 50%;
-  } */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
