@@ -10,7 +10,7 @@
 <body>
     <div class="p-5 bg-secondary text-white text-center">
         <h1>Investment Portfolio</h1>
-        <img style="border-radius: 50%;" src="images/img_avatar.png" alt="Avatar man" width="300px" height="300px">
+        <img style="border-radius: 50%;" src="img_avatar.png" alt="Avatar man" width="300px" height="300px">
         <p style="font-size: 40px;">Prabagaran</p>
         <p style="font-size: 18px;">Software Engineer Investing in Stocks and Cryptocurrency</p> 
     </div>
@@ -55,7 +55,7 @@
       var financialPercentage = (financialStatus > 75) ? 1 : (financialStatus > 50) ? 2 : (financialStatus >= 25) ? 3 : 4;
 
       var resultImage = document.getElementById('result-image');            
-      resultImage.src = "E:/Front-End/TSI/tsi_financialHealth/images/image" + financialPercentage + ".jpg";
+      resultImage.src = "image" + financialPercentage + ".jpg";
 
 
       document.getElementById('result-container').style.display = 'block';
